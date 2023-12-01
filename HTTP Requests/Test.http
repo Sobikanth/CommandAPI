@@ -1,1 +1,1 @@
-GET http://localhost:5118/api/Commands
+GET http://localhost:5118/api/Commands/2

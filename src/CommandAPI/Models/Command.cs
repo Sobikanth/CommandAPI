@@ -4,10 +4,9 @@ namespace CommandAPI.Models;
 
 public class Command
 {
-
     [Key]
     [Required]
-    public int ID { get; set; }
+    public int Id { get; set; }
     [Required]
     [MaxLength(250)]
     public string HowTo { get; set; }
@@ -15,8 +14,4 @@ public class Command
     public string Platform { get; set; }
     [Required]
     public string CommandLine { get; set; }
-
-    
-
-
 }
